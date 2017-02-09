@@ -1,0 +1,44 @@
+<!--the SPA first screen-->
+    <section data-role="page" id="me">
+        <main>
+            <header data-role="header" id="index-banner">
+                <div class="center mainLogo"></div>
+
+            </header>
+
+        </main>
+        <div class="container">
+
+            <div class="root card card-panelTopHeader teal lighten-4 orange-text text-darken-1" data-role="content">
+
+                <section class="center" style="height:900px;">
+
+
+
+                    <article class="center selfieImg1"><img src="" class="img1 circle " /></article>
+                    <article class="center selfieImg2"><img src="" class="img2 circle " /></article>
+                    <article class="center selfieImg3"><img src="" class="img3 circle " /></article>
+
+                    <div class="row center">
+                        <div class="col s2 input-field center">
+                            <span>Change Speed</span>
+                            <input id="speed" type="text" name="speed" class="speed" size="2" />
+                        </div>
+                    </div>
+
+                </section>
+
+
+
+
+
+            </div>
+            <div class="right"><a href="#selfiePic" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+                <div>
+
+
+    </section>
+
+
+
+    <!--end page-->
