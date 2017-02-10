@@ -15,16 +15,27 @@
 
 
 
-                    <article class="center selfieImg1"><img src="" class="img1 circle " /></article>
-                    <article class="center selfieImg2"><img src="" class="img2 circle " /></article>
-                    <article class="center selfieImg3"><img src="" class="img3 circle " /></article>
+                    <article class="center selfieImg1"><img src="tmp" class="img1 circle " /></article>
+                    <article class="center selfieImg2"><img src="tmp" class="img2 circle " /></article>
+                    <article class="center selfieImg3"><img src="tmp" class="img3 circle " /></article>
 
                     <div class="row center">
-                        <div class="col s2 input-field center">
+                        <div class="col s3 input-field center">
                             <span>Change Speed</span>
                             <input id="speed" type="text" name="speed" class="speed" size="2" />
                         </div>
                     </div>
+
+
+                    <div class="row center">
+                        <div class="col s3 input-field center">
+                            <span>Remove User Selfies</span>
+                            <button class="btn-large waves-effect waves-blue z-depth-3 waves-effect teal text-lighten-1 white-text btn-flat removeLocal ">Remove Local
+            <i class="mdi-content-send right"></i>
+            </button>
+                        </div>
+                    </div>
+
 
                 </section>
 
@@ -33,8 +44,10 @@
 
 
             </div>
-            <div class="right"><a href="#selfiePic" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
-                <div>
+        </div>
+
+        <div class="right"><a href="#selfiePic" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
 
 
     </section>
